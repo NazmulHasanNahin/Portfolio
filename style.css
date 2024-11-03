@@ -898,7 +898,7 @@ footer span a:hover {
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 580px) {
   .about .about-content .right .text .break {
     display: block;
   }
@@ -906,86 +906,83 @@ footer span a:hover {
 
 @media (max-width: 500px) {
   .max-width {
-    padding: 0 15px; /* Reduced padding for a better fit on small screens */
+    padding: 0 15px;
   }
 
   .home .home-content .text-2 {
-    font-size: 40px; /* Smaller font size for better readability */
+    font-size: 40px; 
   }
 
   .home .home-content .text-3 {
-    font-size: 22px; /* Slightly smaller font for a cleaner layout */
+    font-size: 22px; 
   }
 
 
-    /* General Project Section */
+    
     .project-section {
-      padding: 20px; /* Reduced padding for smaller screens */
-      flex-direction: column; /* Stack items vertically */
-      align-items: center; /* Center-align for mobile */
+      padding: 20px; 
+      flex-direction: column; 
+      align-items: center;  
     }
   
     /* Project Container */
     .project-container {
-      flex-direction: column; /* Stack project cards vertically */
-      gap: 20px; /* Smaller gap between project cards */
+      flex-direction: column; 
+      gap: 20px; 
     }
   
     /* Project Card */
     .project-card {
-      width: 100%; /* Full-width for better mobile display */
-      max-width: 320px; /* Limit width for readability */
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Softer shadow */
+      width: 100%; 
+      max-width: 320px; 
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     }
   
     /* Image Section with Scroll Effect */
     .project-image {
-      height: 180px; /* Reduced image height for smaller screens */
+      height: 180px; 
     }
   
     .project-image img {
-      height: 100%; /* Ensure image fills container */
-      object-fit: cover; /* Keep image aspect ratio within container */
+      height: 100%; 
+      object-fit: cover; 
     }
   
     .project-info {
       padding: 15px; 
     }
   
-    /* Title Style */
     .project-info h3 {
       font-size: 20px; 
     }
   
-    /* Paragraph Style */
     .project-info p {
-      font-size: 14px; /* Smaller paragraph font */
+      font-size: 14px; 
     }
   
-    /* Buttons */
     .project-buttons {
-      gap: 10px; /* Smaller space between buttons */
+      gap: 10px; 
     }
   
     .project-buttons a {
-      font-size: 12px; /* Smaller button font size */
-      padding: 10px 18px; /* Adjusted padding for buttons */
+      font-size: 12px; 
+      padding: 10px 18px; 
     }
   
     /* Carousel Adjustments */
     .projects .carousel .card {
       margin-top: 5px;
-      padding: 5px 8px; /* Smaller padding inside carousel cards */
+      padding: 5px 8px; 
     }
   
     .projects .carousel .card img {
-      height: 100px; /* Adjusted height to fit smaller screens */
-      width: 100%; /* Full width for better scaling */
-      object-fit: contain; /* Fit image within the card without cropping */
+      height: 100px; 
+      width: 100%; 
+      object-fit: contain; 
     }
     .time-frame {
-      padding: 4px 8px; /* Reduced padding for a more compact look */
-      font-size: 14px; /* Slightly smaller font size for better fit */
+      padding: 4px 8px; 
+      font-size: 14px; 
     }
 }
 
